@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <style>
+        div { z-index: 500; }
+        #div1 { background-color: fuchsia; height: 200px; width: 700px; margin-bottom: -50px; position: relative;}
+        #div2 { background-color: #00ff00; width: 500px; height: 500px; position: relative; }
+        #div3 { background-color: red; width: 300px; height: 200px; position: relative; left: 350px; top: 200px; }
+        #div4 { background-color: aqua; width: 150px; height: 150px; position: relative; float: left;   top: -50px; left: 20px; }
+        #div5 { background-color: gray; width: 200px; height: 200px; position: relative; z-index: 0; top: -300px; left: 250px; }
+        #div6 { background-color: maroon; width: 100px; height: 100px; position: relative; float: right; }
+        #div7 { background-color: navy; width: 400px; height: 400px; position: absolute; top: 0; left: 0; z-index: 10; }
+        #div8 { background-color: #f87604; width: 400px; height: 300px; position: absolute; top: 300px; left: 350px; z-index: 10; }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"><div id="div3"></div></div>
+    <div id="div4"></div>
+    <div id="div5"></div>
+    <div id="div6"></div>
+    <div id="div7"></div>
+    <div id="div8"></div>
+</body>
+</html>
